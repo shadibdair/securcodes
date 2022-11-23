@@ -14,7 +14,10 @@ module "flask_webserver" {
     webserver_name = "Flask"
     // Linux Amazon EC2  || ami-08c40ec9ead489470 -> Ubuntu EC2
     ami = "ami-0b0dcb5067f052a63"
-    instance_type = "t2.medium"
+    instance_type = "t2.micro"
+}
+output "instance_data" {
+    value = module.flask_webserver.instance
 }
 
 # resource "aws_elb" "main" {
