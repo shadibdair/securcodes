@@ -14,5 +14,5 @@ module "flask_webserver" {
     webserver_name = "Flask"
     // Linux Amazon EC2  || ami-08c40ec9ead489470 -> Ubuntu EC2
     ami = "ami-0b0dcb5067f052a63"
-    instance_type = 
+    instance_type = "t2.medium"
 }

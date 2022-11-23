@@ -11,6 +11,7 @@ resource "aws_instance" "webserver" {
     ami = var.ami
     iam_instance_profile = var.instance_type
     subnet_id = aws_subnet.webserver.id
+    instance_type = var.instance_type
 
     tags = {
       "Name" = "${var.webserver_name} webserver"
