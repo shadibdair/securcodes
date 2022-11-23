@@ -16,3 +16,7 @@ module "flask_webserver" {
     ami = "ami-0b0dcb5067f052a63"
     instance_type = "t2.medium"
 }
+
+# resource "aws_elb" "main" {
+#     instances = module.flask_webserver.instance.id
+# }
