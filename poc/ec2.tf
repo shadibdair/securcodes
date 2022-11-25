@@ -6,7 +6,7 @@ resource "aws_instance" "ec2_public" {
   security_groups             = ["${aws_security_group.ssh-security-group.id}"]
   subnet_id                   = aws_subnet.public-subnet-1.id
   associate_public_ip_address = true
-  #user_data                   = "${data.template_file.provision.rendered}"
+  user_data                   = "${jenkins-script.sh}"
   #iam_instance_profile = "${aws_iam_instance_profile.some_profile.id}"
   lifecycle {
     create_before_destroy = true
@@ -14,7 +14,6 @@ resource "aws_instance" "ec2_public" {
   tags = {
     "Name" = "EC2-PUBLIC"
   }
-  # Copies the ssh key file to home dir
   # Copies the ssh key file to home dir
   provisioner "file" {
     source      = "./${var.key_name}.pem"
