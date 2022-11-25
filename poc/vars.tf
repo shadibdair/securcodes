@@ -23,6 +23,6 @@ variable "instance_type" {
   default = "t2.micro"
 }
 variable "key_name" {
-  default = "LL-TEST"
+  default = "LL-keytest"
   type    = string
 }
