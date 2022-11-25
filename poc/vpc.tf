@@ -20,7 +20,7 @@ resource "aws_internet_gateway" "internet-gateway" {
 resource "aws_subnet" "public-subnet-1" {
   vpc_id                  = aws_vpc.vpc.id
   cidr_block              = var.Public_Subnet_1
-  availability_zone       = "eu-central-1a"
+  availability_zone       = "us-east-1a"
   map_public_ip_on_launch = true
   tags = {
     Name = "public-subnet-1"
@@ -49,7 +49,7 @@ resource "aws_route_table_association" "public-subnet-1-route-table-association"
 resource "aws_subnet" "private-subnet-1" {
   vpc_id                  = aws_vpc.vpc.id
   cidr_block              = var.Private_Subnet_1
-  availability_zone       = "eu-central-1a"
+  availability_zone       = "us-east-1a"
   map_public_ip_on_launch = false
   tags = {
     Name = "private-subnet-1"

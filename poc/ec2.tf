@@ -1,6 +1,6 @@
 #Create a new EC2 launch configuration
 resource "aws_instance" "ec2_public" {
-  ami                         = "ami-0eb7496c2e0403237"
+  ami                         = "ami-0b0dcb5067f052a63"
   instance_type               = var.instance_type
   key_name                    = var.key_name
   security_groups             = ["${aws_security_group.ssh-security-group.id}"]
@@ -41,7 +41,7 @@ resource "aws_instance" "ec2_public" {
 #Create a new EC2 launch configuration
 resource "aws_instance" "ec2_private" {
   #name_prefix                 = "terraform-example-web-instance"
-  ami                         = "ami-0eb7496c2e0403237"
+  ami                         = "ami-0b0dcb5067f052a63"
   instance_type               = var.instance_type
   key_name                    = var.key_name
   security_groups             = ["${aws_security_group.webserver-security-group.id}"]
