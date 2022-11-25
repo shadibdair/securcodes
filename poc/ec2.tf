@@ -36,6 +36,10 @@ resource "aws_instance" "ec2_public" {
       host        = self.public_ip
     }
   }
+
+  depends_on = [
+    aws_key_pair.key_pair
+  ]
 }
 
 #Create a new EC2 launch configuration
