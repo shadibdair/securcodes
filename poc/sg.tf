@@ -10,6 +10,23 @@ resource "aws_security_group" "ssh-security-group" {
     protocol    = "tcp"
     cidr_blocks = ["${var.ssh-location}"]
   }
+  // 8080
+  ingress {
+    description = "Http"
+    from_port   = 8080
+    to_port     = 8080
+    protocol    = "tcp"
+    cidr_blocks = ["${var.ssh-location}"]
+  }
+
+  // EFS
+  ingress {
+    description = "EFS"
+    from_port   = 2049
+    to_port     = 2049
+    protocol    = "tcp"
+    cidr_blocks = ["${var.ssh-location}"]
+  }
   egress {
     from_port   = 0
     to_port     = 0
