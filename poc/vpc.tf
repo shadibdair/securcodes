@@ -56,27 +56,27 @@ resource "aws_subnet" "private-subnet-1" {
   }
 }
 
-# LB - Elastic IP
-resource "aws_lb" "eip_ec2_public" {
-  name               = "lb-Eip"
-  load_balancer_type = "network"
+# # LB - Elastic IP
+# resource "aws_lb" "eip_ec2_public" {
+#   name               = "lb-Eip"
+#   load_balancer_type = "network"
 
-  subnet_mapping {
-    subnet_id     = aws_subnet.public-subnet-1.id
-    allocation_id = "eipalloc-09fc4d32f4f875c1b"
-  }
-}
+#   subnet_mapping {
+#     subnet_id     = aws_subnet.public-subnet-1.id
+#     allocation_id = "eipalloc-09fc4d32f4f875c1b"
+#   }
+# }
 
-# Load Balancer
-resource "aws_lb" "lb_ec2_public" {
-  name               = "lb"
-  internal           = false
-  load_balancer_type = "network"
-  subnets            = [for subnet in aws_subnet.public-subnet-1 : subnet.id]
+# # Load Balancer
+# resource "aws_lb" "lb_ec2_public" {
+#   name               = "lb"
+#   internal           = false
+#   load_balancer_type = "network"
+#   subnets            = [for subnet in aws_subnet.public-subnet-1 : subnet.id]
 
-  enable_deletion_protection = false
+#   enable_deletion_protection = false
 
-  tags = {
-    Environment = "poc"
-  }
-}
+#   tags = {
+#     Environment = "poc"
+#   }
+# }
