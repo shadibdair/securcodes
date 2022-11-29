@@ -6,7 +6,17 @@ sudo amazon-linux-extras install docker -y
 sudo service docker start
 # Add the ec2-user to the docker group so you can execute Docker commands without using sudo
 sudo usermod -aG docker ec2-user
-# Pull image
-docker pull sonarqube:latest
-# Run sonarqube server
-docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
+
+# Install docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+# Change permission
+cd /usr/local/bin/
+sudo chmod +x docker-compose
+
+# Install SonarQube
+sudo sysctl -w vm.max_map_count=262144
+mkdir sonar
+cd ~/sonar
+wget https://raw.githubusercontent.com/awstechguide/devops/master/docker-compose.yml
+sudo docker–compose up
