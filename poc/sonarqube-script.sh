@@ -18,5 +18,5 @@ sudo chmod +x docker-compose
 sudo sysctl -w vm.max_map_count=262144
 mkdir sonar
 cd ~/sonar
-wget https://raw.githubusercontent.com/awstechguide/devops/master/docker-compose.yml
+wget https://github.com/shadibdair/securcodes/blob/main/poc/docker-compose.yml
 sudo docker–compose up
