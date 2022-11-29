@@ -16,7 +16,8 @@ sudo chmod +x docker-compose
 
 # Install SonarQube
 sudo sysctl -w vm.max_map_count=262144
+cd /home/ec2-user
 mkdir sonar
-cd ~/sonar
-wget https://github.com/shadibdair/securcodes/blob/main/poc/docker-compose.yml
-sudo docker–compose up
+cd sonar
+wget https://raw.githubusercontent.com/shadibdair/securcodes/main/poc/docker-compose.yml
+docker-compose up
