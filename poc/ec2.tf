@@ -74,7 +74,7 @@ resource "aws_instance" "ec2_public-SonarQube" {
   security_groups             = ["${aws_security_group.ssh-security-group.id}"]
   subnet_id                   = aws_subnet.public-subnet-1.id
   associate_public_ip_address = true
-  //user_data                   = file("jenkins-script.sh")
+  user_data                   = file("sonarqube-script.sh")
   #iam_instance_profile = "${aws_iam_instance_profile.some_profile.id}"
   lifecycle {
     create_before_destroy = true
