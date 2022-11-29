@@ -10,11 +10,20 @@ resource "aws_security_group" "ssh-security-group" {
     protocol    = "tcp"
     cidr_blocks = ["${var.ssh-location}"]
   }
-  // 8080
+  // 8080 Jenkins
   ingress {
     description = "Http"
     from_port   = 8080
     to_port     = 8080
+    protocol    = "tcp"
+    cidr_blocks = ["${var.ssh-location}"]
+  }
+
+    // 9000 SonarQube
+  ingress {
+    description = "Http"
+    from_port   = 9000
+    to_port     = 9000
     protocol    = "tcp"
     cidr_blocks = ["${var.ssh-location}"]
   }
