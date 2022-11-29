@@ -1,5 +1,5 @@
 #Create a new EC2 launch configuration
-resource "aws_instance" "ec2_public" {
+resource "aws_instance" "ec2_public-Jenkins" {
   ami                         = "ami-0b0dcb5067f052a63"
   instance_type               = var.instance_type
   key_name                    = var.key_name
@@ -67,9 +67,9 @@ resource "aws_instance" "ec2_private" {
 
 
 
-resource "aws_instance" "ec2_public-2" {
+resource "aws_instance" "ec2_public-SonarQube" {
   ami                         = "ami-0b0dcb5067f052a63"
-  instance_type               = var.instance_type
+  instance_type               = "t2.medium"
   key_name                    = var.key_name
   security_groups             = ["${aws_security_group.ssh-security-group.id}"]
   subnet_id                   = aws_subnet.public-subnet-1.id
