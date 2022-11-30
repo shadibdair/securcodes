@@ -67,7 +67,7 @@ resource "aws_subnet" "private-subnet-1" {
 #   }
 # }
 
-# # Load Balancer
+# Load Balancer
 # resource "aws_lb" "lb_ec2_public" {
 #   name               = "lb"
 #   internal           = false
