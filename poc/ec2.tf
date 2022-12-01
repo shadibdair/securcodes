@@ -1,4 +1,4 @@
-#Create a new EC2 launch configuration
+#Create a new EC2 launch configuration.
 resource "aws_instance" "ec2_public-Jenkins" {
   ami                         = "ami-0b0dcb5067f052a63"
   instance_type               = var.instance_type
