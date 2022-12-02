@@ -8,9 +8,7 @@ resource "aws_instance" "ec2_public-Jenkins" {
   associate_public_ip_address = true
   user_data                   = file("jenkins-script.sh")
   #iam_instance_profile = "${aws_iam_instance_profile.some_profile.id}"
-  lifecycle {
-    create_before_destroy = true
-  }
+
   tags = {
     "Name" = "EC2-PUBLIC"
   }
@@ -52,9 +50,6 @@ resource "aws_instance" "ec2_private" {
   associate_public_ip_address = false
   #user_data                   = "${data.template_file.provision.rendered}"
   #iam_instance_profile = "${aws_iam_instance_profile.some_profile.id}"
-  lifecycle {
-    create_before_destroy = true
-  }
   tags = {
     "Name" = "EC2-Private"
   }
@@ -76,9 +71,7 @@ resource "aws_instance" "ec2_public-SonarQube" {
   associate_public_ip_address = true
   user_data                   = file("sonarqube-script.sh")
   #iam_instance_profile = "${aws_iam_instance_profile.some_profile.id}"
-  lifecycle {
-    create_before_destroy = true
-  }
+ 
   tags = {
     "Name" = "EC2-PUBLIC"
   }
