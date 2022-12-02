@@ -35,6 +35,7 @@ mkdir postgresql
 mkdir postgresql_data
 
 # Start the docker-compose
+cd /home/ec2-user/sonar
 docker-compose up
 
 
