@@ -21,3 +21,4 @@ sudo yum install -y amazon-efs-utils
 sudo mount -t efs -o tls fs-0a32d4009d2ed462c:/ /var/lib/jenkins
 sudo systemctl start jenkins
 
+
