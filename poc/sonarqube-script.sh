@@ -20,4 +20,21 @@ cd /home/ec2-user
 mkdir sonar
 cd sonar
 wget https://raw.githubusercontent.com/shadibdair/securcodes/main/poc/docker-compose.yml
+
+# EFS install
+sudo yum install -y amazon-efs-utils
+
+# Using the EFS mount
+mkdir /tmp/sonarq-conf/
+sudo mount -t efs -o tls fs-0f1777bcdeaeace03:/ /tmp/sonarq-conf/
+cd /tmp/sonarq-conf/
+mkdir sonarqube_conf
+mkdir sonarqube_data
+mkdir sonarqube_extensions
+mkdir postgresql
+mkdir postgresql_data
+
+# Start the docker-compose
 docker-compose up
+
+
