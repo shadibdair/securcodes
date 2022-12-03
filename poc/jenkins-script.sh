@@ -8,6 +8,13 @@ sudo yum -y upgrade
 sudo yum -y install maven
 sudo yum -y install git
 
+# Install the most recent Docker Engine package.
+sudo amazon-linux-extras install docker -y
+# Start the Docker service.
+sudo service docker start
+# Add the ec2-user to the docker group so you can execute Docker commands without using sudo
+sudo usermod -aG docker ec2-user
+
 # Add required dependencies for the jenkins package
 sudo amazon-linux-extras install -y java-openjdk11
 sudo yum -y install jenkins
