@@ -26,7 +26,6 @@
 - [Contributing](#wave-contributing)
   * [Code of Conduct](#scroll-code-of-conduct)
 - [FAQ](#grey_question-faq)
-- [License](#warning-license)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
 
@@ -157,7 +156,8 @@ Inside the sonarqube I've configure some condition how to scan the code.
 ![image](https://user-images.githubusercontent.com/43513994/205518648-12c75d1d-bb18-4cfd-87b5-9ea0f29aee65.png)
 
 ```
-🌻 If Quality Gate Status Check returned OK ... Continue to the next stage/step in according to jenkinsfile pipeline.
+If Quality Gate Status Check returned OK ... 
+Continue to the next stage/step in according to jenkinsfile pipeline.
 ```
 
 ```
@@ -204,28 +204,72 @@ that I've created to use it inside the K8S in this case I used Minikube.
 <!-- Code of Conduct -->
 ### :scroll: Code of Conduct
 
+```
+A well-written code of conduct clarifies an organization's mission, values and principles,
+linking them with standards of professional conduct.
+The code articulates the values the organization wishes to foster in leaders and employees and,
+in doing so, defines desired behavior.
+```
+
 <!-- FAQ -->
 ## :grey_question: FAQ
 
-- Question 1
+- 🧛 Question 1 : How much ec2's were used ?
 
-  + Answer 1
+  + Answer 1 : 
+  + I've used 3 instances
+  ```
+  1- EC2 For Jenkins Server
+     - I've prepared a script that install, configure and stored the plugins from EFS volume.
+  2- EC2 For SonarQube Server
+     - I've prepared a script that install, configure and stored the plugins from EFS volume.
+  3- EC2 For Cluster K8S - Minikube
+     - Installed manualy the minikube cluster
+  ```
 
-- Question 2
+- Question 2 : What is your next step / features ?
 
   + Answer 2
+  ```
+  Will creating new stages/steps that scan the code more deply :
+  Static application security testing (SAST) and 
+  dynamic application security testing (DAST) 
+  are both methods of testing for security vulnerabilities,
+  ```
+  
+- Question 3 : What you've learned from this project ?
 
+  + Answer 3
+  ```
+  The most important thing, I faced new errors and solved it.
+  Stack-overflow was my best friend 💚.
+  And I've learned ansible playbook and how to use it with jenkins.
+  I tried to use many tools as: 
+  Jenkinsfile, Dockerfile, Docker-Compose, Ansible, K8S, AWS Services, Terraform.
+  ```
 
-<!-- License -->
-## :warning: License
+- Question 4 : What's your advice ?
 
+  + Answer 4
+  ```
+  Don’t trust user input: 😈
+  A significant amount of vulnerabilities in web applications including
+  cross site scripting, SQL injections and buffer overflows can be attributed to
+  the fact that the software trusted user input. Every field on an input
+  form should have at least one check to validate that the data is in the correct
+  format. For example, an address should be checked to make sure 
+  it doesn’t include a colon or backslash. 
+  
+  ```
 
 <!-- Contact -->
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://www.linkedin.com/in/shadi-badir/) - Shadi Badir
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: 
+[https://github.com/shadibdair/web-app-sq](https://github.com/shadibdair/web-app-sq)
+[https://github.com/shadibdair/securcodes](https://github.com/shadibdair/securcodes)
 
 
 <!-- Acknowledgments -->
