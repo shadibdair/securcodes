@@ -1,7 +1,7 @@
 <div align="center">
 
   <img src="https://github.com/Louis3797/awesome-readme-template/blob/main/assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>README 🐲 SecureCode</h1>
+  <h1>Secure🐲Code</h1>
   
   <p>
     SecureCode project CI/CD. 
@@ -66,11 +66,11 @@ The last step is run the image into **K8S Cluster**.
 <!-- Env Variables -->
 ### :key: Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your environment.
 
-`API_KEY`
-
-`ANOTHER_API_KEY`
+`Terraform`
+`AWS`
+`Access Key`
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
