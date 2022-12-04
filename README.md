@@ -39,7 +39,11 @@
 
 <!-- About the Project -->
 ## :star2: About the Project
+The project is related to security once development pushes code to GitHub, the pipeline will check if there’s a vulnerability and give a score if it's high seems good, otherwise will damage the code.
+In other words I want to keep the code clean and hard to hack.
 
+And once it's pass the **Quality Gate Status Check** there's anothe step **Dockerize The Application** and push it to DockerHub as image.
+The last step is run the image into **K8S Cluster**.
 
 <!-- Screenshots -->
 ### :camera: Screenshots
