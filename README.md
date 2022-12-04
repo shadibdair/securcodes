@@ -19,7 +19,7 @@
   * [Features](#dart-features)
   * [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-Infrastructure)
+  * [Infrastructure](#bangbang-infrastructure)
   * [Installation](#gear-installation)
   * [Running Tests](#test_tube-running-tests)
   * [Run Locally](#running-run-locally)
@@ -76,7 +76,7 @@ To run this project, you will need to add the following environment variables to
 ## 	:toolbox: Getting Started
 #### 🐾 What I Use
 
-### ⚖️ Infrastructure:
+### :bangbang: Infrastructure
 
 Terraform describe our complete infrastructure in the form of code.
 
