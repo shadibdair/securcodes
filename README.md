@@ -73,15 +73,35 @@ To run this project, you will need to add the following environment variables to
 `Access Key`
 
 <!-- Getting Started -->
-## 	:toolbox: Getting Started
+## 	:toolbox: What I Use
 
-<!-- Prerequisites -->
-### :bangbang: Prerequisites
+### ⚖️ Infrastructure:
 
-This project uses Yarn as package manager
+Terraform describe our complete infrastructure in the form of code.
+
+*Resources:*
+
+`aws_instance`
+`aws_vpc`
+`aws_security_group`
+`aws_internet_gateway`
+`aws_subnet`
+`aws_route_table`
+`Access Key`
+`aws_route_table_association`
+`aws_lb`
+`tls_private_key`
+`local_file`
+`aws_key_pair`
+`EFS - Volume`
+
+
+*This project uses JSP Page:* 
+
+Is a text document that contains two types of text: static data, which can be expressed in any text-based format (such as HTML, SVG, WML, and XML), and JSP elements, which construct dynamic content.
 
 ```bash
- npm install --global yarn
+ maven
 ```
 
 <!-- Installation -->
