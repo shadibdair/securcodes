@@ -214,7 +214,7 @@ in doing so, defines desired behavior.
 <!-- FAQ -->
 ## :grey_question: FAQ
 
-- 🧛 Question 1 : How much ec2's were used ?
+- 🧛 Question 1 : How many ec2's were used ?
 
   + Answer 1 : 
   + I've used 3 instances
@@ -227,7 +227,7 @@ in doing so, defines desired behavior.
      - Installed manualy the minikube cluster
   ```
 
-- Question 2 : What is your next step / features ?
+- 🧑🏼‍💻 Question 2 : What is your next step / features ?
 
   + Answer 2
   ```
@@ -237,7 +237,7 @@ in doing so, defines desired behavior.
   are both methods of testing for security vulnerabilities,
   ```
   
-- Question 3 : What you've learned from this project ?
+- 🐉 Question 3 : What you've learned from this project ?
 
   + Answer 3
   ```
@@ -248,7 +248,7 @@ in doing so, defines desired behavior.
   Jenkinsfile, Dockerfile, Docker-Compose, Ansible, K8S, AWS Services, Terraform.
   ```
 
-- Question 4 : What's your advice ?
+- ⛄️ Question 4 : What's your advice ?
 
   + Answer 4
   ```
@@ -265,9 +265,9 @@ in doing so, defines desired behavior.
 <!-- Contact -->
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://www.linkedin.com/in/shadi-badir/) - Shadi Badir
+👤 Your Name - [@twitter_handle](https://www.linkedin.com/in/shadi-badir/) - Shadi Badir
 
-Project Link: 
+🥷🏻 Project Link: 
 [https://github.com/shadibdair/web-app-sq](https://github.com/shadibdair/web-app-sq)
 [https://github.com/shadibdair/securcodes](https://github.com/shadibdair/securcodes)
 
