@@ -265,7 +265,7 @@ in doing so, defines desired behavior.
 <!-- Contact -->
 ## :handshake: Contact
 
-👤 Your Name - [@twitter_handle](https://www.linkedin.com/in/shadi-badir/) - Shadi Badir
+👤 Your Name - [@linkedin](https://www.linkedin.com/in/shadi-badir/) - Shadi Badir
 
 🥷🏻 Project Link: 
 [https://github.com/shadibdair/web-app-sq](https://github.com/shadibdair/web-app-sq)
