@@ -268,8 +268,10 @@ in doing so, defines desired behavior.
 👤 Your Name - [@linkedin](https://www.linkedin.com/in/shadi-badir/) - Shadi Badir
 
 🥷🏻 Project Link: 
-[https://github.com/shadibdair/web-app-sq](https://github.com/shadibdair/web-app-sq)
-[https://github.com/shadibdair/securcodes](https://github.com/shadibdair/securcodes)
+
+- [https://github.com/shadibdair/web-app-sq](https://github.com/shadibdair/web-app-sq)
+
+- [https://github.com/shadibdair/securcodes](https://github.com/shadibdair/securcodes)
 
 
 <!-- Acknowledgments -->
