@@ -21,13 +21,11 @@
 - [Getting Started](#toolbox-getting-started)
   * [Infrastructure](#bangbang-infrastructure)
   * [Deployment](#triangular_flag_on_post-deployment)
-- [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
   * [Code of Conduct](#scroll-code-of-conduct)
 - [FAQ](#grey_question-faq)
 - [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
 
   
 
@@ -174,14 +172,6 @@ After that pullin the image from dockerhub and added to deployment yaml
 that I've created to use it inside the K8S in this case I used Minikube.
 ```
 
-
-<!-- Usage -->
-## :eyes: Usage
-
-
-
-
-
 <!-- Roadmap -->
 ## :compass: Roadmap
 
@@ -269,11 +259,8 @@ in doing so, defines desired behavior.
 
 🥷🏻 Project Link: 
 
+**Web Application - where I build the jenkinsfile pipeline, dockerfil, ansible.**
 - [https://github.com/shadibdair/web-app-sq](https://github.com/shadibdair/web-app-sq)
 
+**Infrastructure as code - where I build the aws services.**
 - [https://github.com/shadibdair/securcodes](https://github.com/shadibdair/securcodes)
-
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
