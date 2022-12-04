@@ -130,15 +130,15 @@ You can find inside:**
 https://github.com/shadibdair/securcodes/blob/main/poc/sonarqube-script.sh
 ```
 
-**NOTE**
+⭐️**NOTE**
 
-*I've stored all the configuration inside EFS AWS ... That saved your time in the next terraform apply.
-all the configuration will be saved.*
+```
+I've stored all the configuration inside EFS AWS ... That saved your time in the next terraform apply.
+all the configuration will be saved.
 
-*One for jenkins server EC2*
-
-*One for sonarqube server EC2*
-   
+- One for jenkins server EC2*
+- One for sonarqube server EC2
+```
 <!-- Running Tests -->
 ### :test_tube: Running Tests
 
