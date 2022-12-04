@@ -73,13 +73,14 @@ To run this project, you will need to add the following environment variables to
 `Access Key`
 
 <!-- Getting Started -->
-## 	:toolbox: What I Use
+## 	:toolbox: Getting Started
+#### What I Use
 
 ### ⚖️ Infrastructure:
 
 Terraform describe our complete infrastructure in the form of code.
 
-🎨**Resources:**
+🎨 **Resources:**
 
 `aws_instance`
 `aws_vpc`
@@ -102,7 +103,7 @@ terraform plan
 terraform apply
 ```
 
-### 🔱**This project uses JSP Page:**
+### 🔱 **This project uses JSP Page:**
 
 Is a text document that contains two types of text: static data, which can be expressed in any text-based format (such as HTML, SVG, WML, and XML), and JSP elements, which construct dynamic content.
 
@@ -118,25 +119,25 @@ type http://localhost:8080/DateJSP.jsp and submit that address to the browser.
 <!-- Installation -->
 ### :gear: Configuration
 
-☘️**Prepared a script that install all the plugins that needs **Instance Jenkins Server**
+☘️ **Prepared a script that install all the plugins that needs **Instance Jenkins Server**
 You can find inside:**
 ```
 git clone https://github.com/shadibdair/securcodes/blob/main/poc/jenkins-script.sh
 ```
 
-🌿**Prepared a script that install all the plugins that needs **Instance SonarQube Server**
+🌿 **Prepared a script that install all the plugins that needs **Instance SonarQube Server**
 You can find inside:**
 ```
 git clone https://github.com/shadibdair/securcodes/blob/main/poc/sonarqube-script.sh
 ```
 
-⭐️**NOTE**
+⭐️ **NOTE**
 
 ```
 I've stored all the configuration inside EFS AWS ... That saved your time in the next terraform apply.
 all the configuration will be saved.
 
-- One for jenkins server EC2*
+- One for jenkins server EC2
 - One for sonarqube server EC2
 ```
 
