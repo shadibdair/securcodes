@@ -15,6 +15,9 @@ sudo service docker start
 # Add the ec2-user to the docker group so you can execute Docker commands without using sudo
 sudo usermod -aG docker ec2-user
 
+# Install Ansible
+sudo amazon linux extras install ansible2 -y
+
 # Add required dependencies for the jenkins package
 sudo amazon-linux-extras install -y java-openjdk11
 sudo yum -y install jenkins
