@@ -79,7 +79,7 @@ To run this project, you will need to add the following environment variables to
 
 Terraform describe our complete infrastructure in the form of code.
 
-**Resources:**
+🎨**Resources:**
 
 `aws_instance`
 `aws_vpc`
@@ -96,13 +96,13 @@ Terraform describe our complete infrastructure in the form of code.
 `EFS - Volume`
 
 **All you need to create these infrastructure:**
-```bash
- terraform init
- terraform plan
- terraform apply
+```
+terraform init
+terraform plan
+terraform apply
 ```
 
-**This project uses JSP Page:**
+### 🔱**This project uses JSP Page:**
 
 Is a text document that contains two types of text: static data, which can be expressed in any text-based format (such as HTML, SVG, WML, and XML), and JSP elements, which construct dynamic content.
 
@@ -118,16 +118,16 @@ type http://localhost:8080/DateJSP.jsp and submit that address to the browser.
 <!-- Installation -->
 ### :gear: Configuration
 
-**Prepared a script that install all the plugins that needs **Instance Jenkins Server**
+☘️**Prepared a script that install all the plugins that needs **Instance Jenkins Server**
 You can find inside:**
 ```
-https://github.com/shadibdair/securcodes/blob/main/poc/jenkins-script.sh
+git clone https://github.com/shadibdair/securcodes/blob/main/poc/jenkins-script.sh
 ```
 
-**Prepared a script that install all the plugins that needs **Instance SonarQube Server**
+🌿**Prepared a script that install all the plugins that needs **Instance SonarQube Server**
 You can find inside:**
 ```
-https://github.com/shadibdair/securcodes/blob/main/poc/sonarqube-script.sh
+git clone https://github.com/shadibdair/securcodes/blob/main/poc/sonarqube-script.sh
 ```
 
 ⭐️**NOTE**
@@ -139,6 +139,7 @@ all the configuration will be saved.
 - One for jenkins server EC2*
 - One for sonarqube server EC2
 ```
+
 <!-- Running Tests -->
 ### :test_tube: Running Tests
 
@@ -192,19 +193,9 @@ To deploy this project run
 Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
 
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
 
 <!-- Roadmap -->
 ## :compass: Roadmap
-
-* [x] Todo 1
-* [ ] Todo 2
 
 
 <!-- Contributing -->
@@ -223,8 +214,6 @@ See `contributing.md` for ways to get started.
 <!-- Code of Conduct -->
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
 <!-- FAQ -->
 ## :grey_question: FAQ
 
@@ -240,8 +229,6 @@ Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-te
 <!-- License -->
 ## :warning: License
 
-Distributed under the no License. See LICENSE.txt for more information.
-
 
 <!-- Contact -->
 ## :handshake: Contact
@@ -254,9 +241,3 @@ Project Link: [https://github.com/Louis3797/awesome-readme-template](https://git
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
