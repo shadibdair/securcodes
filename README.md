@@ -168,34 +168,37 @@ Inside the sonarqube I've configure some condition how to scan the code.
 
 ```
 🐣 The last stage/step I've deploy the application into cluster k8s using minikube as cluster.
-In this case I used Ansible Playbook, that access to ec2 cluster and create a deployment and nodeport service,
-to external access.
-After that pullin the image from dockerhub and added to deployment yaml that I've created to use it inside the K8S in this case I used Minikube.
+In this case I used Ansible Playbook, 
+that access to ec2 cluster and create a deployment and nodeport service for external access.
+After that pullin the image from dockerhub and added to deployment yaml 
+that I've created to use it inside the K8S in this case I used Minikube.
 ```
 
 
 <!-- Usage -->
 ## :eyes: Usage
 
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
+
 
 
 
 <!-- Roadmap -->
 ## :compass: Roadmap
 
+🦅 **The Pipeline Workflow**
+
+![image](https://user-images.githubusercontent.com/43513994/205519448-a0337446-6b19-4ca7-b2a5-b508c818840b.png)
+
 
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+<a href="https://github.com/shadibdair">
   <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
 </a>
 
 
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
+🗣 Shadi Badir: Contributions are always welcome!
 
 
 <!-- Code of Conduct -->
