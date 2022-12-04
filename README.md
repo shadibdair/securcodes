@@ -47,11 +47,7 @@ The last step is run the image into **K8S Cluster**.
 
 <!-- Screenshots -->
 ### :camera: Screenshots
-
-<div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
-</div>
-
+![image](https://user-images.githubusercontent.com/43513994/205515072-e8d7a97f-7fb2-44aa-9610-ace4a0a3b743.png)
 
 <!-- TechStack -->
 ### :space_invader: Tech Stack
