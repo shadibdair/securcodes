@@ -20,9 +20,6 @@
   * [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
   * [Infrastructure](#bangbang-infrastructure)
-  * [Installation](#gear-installation)
-  * [Running Tests](#test_tube-running-tests)
-  * [Run Locally](#running-run-locally)
   * [Deployment](#triangular_flag_on_post-deployment)
 - [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
@@ -37,11 +34,16 @@
 
 <!-- About the Project -->
 ## :star2: About the Project
-The project is related to security once development pushes code to GitHub, the pipeline will check if there’s a vulnerability and give a score if it's high seems good, otherwise will damage the code.
+```
+The project is related to security once development pushes code to GitHub, 
+the pipeline will check if there’s a vulnerability and give a score if it's high seems good, 
+otherwise will damage the code.
 In other words I want to keep the code clean and hard to hack.
 
-And once it's pass the **Quality Gate Status Check** there's anothe step **Dockerize The Application** and push it to DockerHub as image.
+And once it's pass the **Quality Gate Status Check**,
+there's anothe step **Dockerize The Application** and push it to DockerHub as image.
 The last step is run the image into **K8S Cluster**.
+```
 
 <!-- Screenshots -->
 ### :camera: Screenshots
@@ -105,11 +107,13 @@ terraform apply
 
 ### 🔱 **This project uses JSP Page:**
 
+```
 Is a text document that contains two types of text: static data, which can be expressed in any text-based format (such as HTML, SVG, WML, and XML), and JSP elements, which construct dynamic content.
 
 Created a simple page that contain some information about DevOps tools.
 This ****WebApp** run inside image that I've **Dockerize** it and push it to **DockerHub**.
 After that I pull it inside the K8S in this case I used Minikube.
+```
 
 ```
 Start your browser if it is not already running. In the address area of the browser,
@@ -141,50 +145,32 @@ all the configuration will be saved.
 - One for sonarqube server EC2
 ```
 
-<!-- Running Tests -->
-### :test_tube: Running Tests
-
-To run tests, run the following command
-
-```bash
-  yarn test test
-```
-
-<!-- Run Locally -->
-### :running: Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  yarn install
-```
-
-Start the server
-
-```bash
-  yarn start
-```
-
-
 <!-- Deployment -->
 ### :triangular_flag_on_post: Deployment
 
-To deploy this project run
+```
+🍄 This project start deploy once you add new feature inside the code of web-app.
+The trigger will notify the job in jenkins, and start scanning the entire project to find vulnerabilities.
+Inside the sonarqube I've configure some condition how to scan the code.
+```
 
-```bash
-  yarn deploy
+![image](https://user-images.githubusercontent.com/43513994/205518648-12c75d1d-bb18-4cfd-87b5-9ea0f29aee65.png)
+
+```
+🌻 If Quality Gate Status Check returned OK ... Continue to the next stage/step in according to jenkinsfile pipeline.
+```
+
+```
+🐻‍❄️ The next stage/step dockerize the application and push it to dockerhub.
+```
+
+![image](https://user-images.githubusercontent.com/43513994/205518829-71f9c800-113e-43a6-a98e-8cb39da70435.png)
+
+```
+🐣 The last stage/step I've deploy the application into cluster k8s using minikube as cluster.
+In this case I used Ansible Playbook, that access to ec2 cluster and create a deployment and nodeport service,
+to external access.
+After that pullin the image from dockerhub and added to deployment yaml that I've created to use it inside the K8S in this case I used Minikube.
 ```
 
 
