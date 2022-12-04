@@ -2,14 +2,17 @@
 
   <img src="https://github.com/Louis3797/awesome-readme-template/blob/main/assets/logo.png" alt="logo" width="200" height="auto" />
   <h1>Secure🐲Code</h1>
-  
   <p>
     SecureCode project CI/CD. 
-  </p>
-   
+  </p>  
 </div>
-
 <br />
+
+<div align="center">
+<img src="https://github.com/fnky/fnky/raw/fnky/img/welcome-fire.gif" alt="Welcome" align="center">
+  </div>
+
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
