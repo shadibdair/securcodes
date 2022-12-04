@@ -19,7 +19,7 @@
   * [Features](#dart-features)
   * [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-prerequisites)
+  * [Prerequisites](#bangbang-Infrastructure)
   * [Installation](#gear-installation)
   * [Running Tests](#test_tube-running-tests)
   * [Run Locally](#running-run-locally)
@@ -74,7 +74,7 @@ To run this project, you will need to add the following environment variables to
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
-#### What I Use
+#### 🐾 What I Use
 
 ### ⚖️ Infrastructure:
 
