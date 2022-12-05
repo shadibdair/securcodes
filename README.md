@@ -45,6 +45,18 @@ there's anothe step **Dockerize The Application** and push it to DockerHub as im
 The last step is run the image into **K8S Cluster**.
 ```
 
+## 🤷🏻‍♂️ Why I need this project ?
+```
+🐌 *Manually* every time there is a change in the code, I take the code and 
+run it in a separate environment and debug it and analyze it 
+to see if it is correct and if I can put it into the production environment.
+    
+🐇 *Automatically* if there is a change in the code, 
+the job in Jenkinsfille starts running with all 
+its tests that check if it is correct and 
+can be integrated into a production environment.
+```
+
 <!-- Screenshots -->
 ### :camera: Screenshots
 ![image](https://user-images.githubusercontent.com/43513994/205515072-e8d7a97f-7fb2-44aa-9610-ace4a0a3b743.png)
